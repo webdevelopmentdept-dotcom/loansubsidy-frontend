@@ -99,7 +99,7 @@ export default function Eligibility() {
                 <select id="community" value={form.community} onChange={(e) => update("community", e.target.value)}>
                   <option value="">Select category</option>
                   <option>General</option><option>BC</option><option>MBC</option>
-                  <option>DNC</option><option>SC</option><option>ST</option>
+                  <option>OBC</option><option>DNC</option><option>SC</option><option>ST</option>
                   <option>Minority</option><option>Other</option>
                 </select>
               </div>
