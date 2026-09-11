@@ -58,7 +58,7 @@ export default function Home() {
               service/success fee is disclosed in writing before it becomes payable.
             </p>
             <div className="hero-actions">
-              <Link to="/eligibility" className="btn btn-primary">Check Eligibility Free →</Link>
+              <Link to="/apply" className="btn btn-primary">Apply Now →</Link>
               <Link to="/schemes" className="btn btn-outline">Browse All Schemes</Link>
             </div>
           </div>
@@ -68,7 +68,7 @@ export default function Home() {
               Business type, project cost, age, community, gender and district — tell us once,
               and we match you against every scheme in our database.
             </p>
-            <Link to="/eligibility" className="btn btn-outline btn-block">Start now</Link>
+            <Link to="/apply" className="btn btn-outline btn-block">Start now</Link>
           </div>
         </div>
       </section>

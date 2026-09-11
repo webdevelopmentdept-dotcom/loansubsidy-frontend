@@ -6,6 +6,7 @@ const links = [
   { to: "/schemes", label: "Government Schemes" },
   { to: "/business-ideas", label: "Business Ideas" },
   { to: "/eligibility", label: "Eligibility" },
+  { to: "/apply", label: "Apply Now" },
   { to: "/about", label: "About / Contact" },
 ];
 
@@ -27,9 +28,13 @@ export default function Navbar() {
           ))}
         </nav>
 
-        <NavLink to="/eligibility" className="btn btn-primary nav-cta">
+        {/* <NavLink to="/eligibility" className="btn btn-primary nav-cta">
           Check Eligibility
-        </NavLink>
+        </NavLink> */}
+
+        <NavLink to="/apply" className="btn btn-primary nav-cta">
+  Apply Now
+</NavLink>
 
         <button
           className="nav-toggle"
@@ -51,6 +56,9 @@ export default function Navbar() {
           <NavLink to="/eligibility" className="nav-cta-mobile" onClick={() => setOpen(false)}>
             Check Eligibility →
           </NavLink>
+          {/* <NavLink to="/apply" className="nav-cta-mobile" onClick={() => setOpen(false)}>
+  Apply Now →
+</NavLink> */}
         </div>
       )}
     </header>

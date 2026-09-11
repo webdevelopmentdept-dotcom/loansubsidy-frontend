@@ -6,6 +6,7 @@ import Schemes from "./pages/Schemes.jsx";
 import SchemeDetail from "./pages/SchemeDetail.jsx";
 import BusinessIdeas from "./pages/BusinessIdeas.jsx";
 import Eligibility from "./pages/Eligibility.jsx";
+import Apply from "./pages/Apply.jsx";
 import About from "./pages/About.jsx";
 import NotFound from "./pages/NotFound.jsx";
 import AdminLogin from "./pages/admin/AdminLogin.jsx";
@@ -26,6 +27,7 @@ export default function App() {
           <Route path="/schemes/:slug" element={<SchemeDetail />} />
           <Route path="/business-ideas" element={<BusinessIdeas />} />
           <Route path="/eligibility" element={<Eligibility />} />
+          <Route path="/apply" element={<Apply />} />
           <Route path="/about" element={<About />} />
           <Route path="/admin/login" element={<AdminLogin />} />
           <Route
