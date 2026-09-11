@@ -22,6 +22,7 @@ export const TN_DISTRICT_TALUKS = {
   "Nilgiris": ["Udhagamandalam (Ooty)", "Coonoor", "Kotagiri", "Gudalur", "Pandalur"],
   "Perambalur": ["Perambalur", "Kunnam", "Veppanthattai", "Alathur"],
   "Pudukkottai": ["Pudukkottai", "Alangudi", "Aranthangi", "Gandarvakottai", "Illuppur", "Karambakudi", "Kulathur", "Manamelkudi", "Avudaiyarkoil", "Ponnamaravathi"],
+  "Pondicherry": ["Puducherry", "Ariyankuppam", "Bahour", "Mannadipet", "Nettapakkam", "Oussudu"],
   "Ramanathapuram": ["Ramanathapuram", "Kamuthi", "Kadaladi", "Mudukulathur", "Paramakudi", "Rajasingamangalam", "Tiruvadanai", "Rameswaram"],
   "Ranipet": ["Ranipet", "Arakkonam", "Arcot", "Sholinghur", "Nemili", "Walaja"],
   "Salem": ["Salem", "Attur", "Edappadi", "Gangavalli", "Mettur", "Omalur", "Sankari", "Vazhapadi", "Yercaud", "Valapady"],
@@ -40,6 +41,7 @@ export const TN_DISTRICT_TALUKS = {
   "Vellore": ["Vellore", "Gudiyattam", "Katpadi", "Anaicut", "K.V.Kuppam"],
   "Viluppuram": ["Viluppuram", "Gingee", "Kandachipuram", "Tindivanam", "Vanur", "Vikravandi", "Marakkanam"],
   "Virudhunagar": ["Virudhunagar", "Aruppukottai", "Kariapatti", "Rajapalayam", "Sattur", "Sivakasi", "Srivilliputhur", "Tiruchuli", "Vembakottai", "Watrap"],
+  
   "Other State / Not in Tamil Nadu": [],
 };
 
